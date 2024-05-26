@@ -1,0 +1,203 @@
+[
+    {
+        "attrib": "Route",
+        "id": "0::0:Route0",
+        "linked": [
+            "0:Default:2:1",
+            "0:Default:4:3",
+            "0:Default:7:7",
+            "0:Default:3:2",
+            "0:Default:12:11",
+            "0:Default:11:10"
+        ],
+        "pose": [
+            354,
+            225,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::1:Route1",
+        "linked": [
+            "0::0:Route0",
+            "0:Default:13:12"
+        ],
+        "pose": [
+            360,
+            260,
+            0
+        ]
+    },
+    {
+        "attrib": "Charging",
+        "id": "0:Charging:0:Charging0",
+        "linked": [
+        ],
+        "pose": [
+            319,
+            296,
+            -3.1391647326017846e-07
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:10:9",
+        "linked": [
+            "0:Default:2:1",
+            "0:Default:9:8"
+        ],
+        "pose": [
+            364,
+            174,
+            -1.0000003576278687
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:11:10",
+        "linked": [
+            "0:Default:2:1"
+        ],
+        "pose": [
+            374,
+            209,
+            -3.000000238418579
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:12:11",
+        "linked": [
+            "0:Default:11:10"
+        ],
+        "pose": [
+            377,
+            235,
+            -3.000000238418579
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:13:12",
+        "linked": [
+            "0:Default:5:4",
+            "0:Default:12:11"
+        ],
+        "pose": [
+            381,
+            263,
+            -3.000000238418579
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:2:1",
+        "linked": [
+            "0:Default:8:6"
+        ],
+        "pose": [
+            357,
+            197,
+            0.9999997019767761
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:3:2",
+        "linked": [
+            "0:Default:7:7"
+        ],
+        "pose": [
+            323,
+            234,
+            -3.1391647326017846e-07
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:4:3",
+        "linked": [
+            "0:Default:3:2",
+            "0:Default:8:6"
+        ],
+        "pose": [
+            323,
+            197,
+            -3.1391647326017846e-07
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:5:4",
+        "linked": [
+        ],
+        "pose": [
+            349,
+            298,
+            -3.1391647326017846e-07
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:6:5",
+        "linked": [
+            "0:Default:13:12"
+        ],
+        "pose": [
+            346,
+            281,
+            -3.1391647326017846e-07
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:7:7",
+        "linked": [
+            "0:Default:13:12"
+        ],
+        "pose": [
+            332,
+            242,
+            -3.1391647326017846e-07
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:8:6",
+        "linked": [
+            "0:Default:4:3"
+        ],
+        "pose": [
+            319,
+            190,
+            -3.1391647326017846e-07
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:9:8",
+        "linked": [
+            "0:Default:8:6"
+        ],
+        "pose": [
+            338,
+            159,
+            0.9999997019767761
+        ]
+    },
+    {
+        "attrib": "Resting",
+        "id": "0:Resting:1:Resting0",
+        "linked": [
+            "0::1:Route1",
+            "0:Default:6:5",
+            "0:Default:13:12"
+        ],
+        "pose": [
+            368.664306640625,
+            300.5360107421875,
+            -0.9759362936019897
+        ]
+    }
+]

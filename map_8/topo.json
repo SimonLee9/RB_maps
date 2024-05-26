@@ -1,0 +1,49 @@
+[
+    {
+        "attrib": "Route",
+        "id": "0::0:Route0",
+        "linked": [
+            "0:Resting:1:Resting0",
+            "0:Cleaning:2:Cleaning0"
+        ],
+        "pose": [
+            493,
+            474,
+            0
+        ]
+    },
+    {
+        "attrib": "Charging",
+        "id": "0:Charging:0:Charging0",
+        "linked": [
+            "0::0:Route0"
+        ],
+        "pose": [
+            473,
+            477,
+            -3.030935525894165
+        ]
+    },
+    {
+        "attrib": "Cleaning",
+        "id": "0:Cleaning:2:Cleaning0",
+        "linked": [
+        ],
+        "pose": [
+            497,
+            498,
+            1.3909428119659424
+        ]
+    },
+    {
+        "attrib": "Resting",
+        "id": "0:Resting:1:Resting0",
+        "linked": [
+        ],
+        "pose": [
+            511,
+            471,
+            -3.1391647326017846e-07
+        ]
+    }
+]

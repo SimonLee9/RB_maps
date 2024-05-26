@@ -1,0 +1,502 @@
+[
+    {
+        "attrib": "Cleaning",
+        "id": "0::0:Cleaning0",
+        "linked": [
+            "0::26:Route26",
+            "0::32:Route32",
+            "0::34:Route34"
+        ],
+        "pose": [
+            3.767896239771618,
+            -0.5448535477386025,
+            3.141592653589793
+        ]
+    },
+    {
+        "attrib": "Resting",
+        "id": "0::0:Resting0",
+        "linked": [
+            "0:Default:0:Serving0",
+            "0::32:Route32"
+        ],
+        "pose": [
+            4.567896239771618,
+            0.25514645226139754,
+            1.5707963267948966
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::0:Route0",
+        "linked": [
+            "0::5:Route5",
+            "0::2:Route2",
+            "0:Default:2:Serving2",
+            "0::9:Route9",
+            "0::12:Route12",
+            "0::17:Route17",
+            "0:Default:1:Serving1"
+        ],
+        "pose": [
+            8.289571142516555,
+            -0.3581032854943559,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::12:Route12",
+        "linked": [
+            "0::2:Route2",
+            "0::22:Route22",
+            "0::0:Route0",
+            "0::13:Route13"
+        ],
+        "pose": [
+            9.040646188721611,
+            0.4735495831759766,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::13:Route13",
+        "linked": [
+            "0:Default:3:Serving3",
+            "0::2:Route2",
+            "0::14:Route14",
+            "0::12:Route12"
+        ],
+        "pose": [
+            8.522673937138718,
+            1.1806228154954814,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::14:Route14",
+        "linked": [
+            "0:Default:3:Serving3",
+            "0:Default:4:Serving4",
+            "0::20:Route20",
+            "0::13:Route13",
+            "0::24:Route24"
+        ],
+        "pose": [
+            8.243133356919378,
+            1.509494086341764,
+            1.5707963267948966
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::17:Route17",
+        "linked": [
+            "0::2:Route2",
+            "0::0:Route0",
+            "0::31:Route31",
+            "0::33:Route33"
+        ],
+        "pose": [
+            7.1597434356719205,
+            0.4474691189414586,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::19:Route19",
+        "linked": [
+            "0:Default:3:Serving3"
+        ],
+        "pose": [
+            9.790493319917555,
+            1.9781356472977156,
+            0
+        ]
+    },
+    {
+        "attrib": "Resting",
+        "id": "0::1:Resting1",
+        "linked": [
+            "0::8:Route8",
+            "0::30:Route30"
+        ],
+        "pose": [
+            5.367896239771618,
+            0.25514645226139754,
+            1.480136439594146
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::20:Route20",
+        "linked": [
+            "0:Default:3:Serving3",
+            "0::24:Route24",
+            "0::14:Route14"
+        ],
+        "pose": [
+            8.029367030869295,
+            1.9863574290688704,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::21:Route21",
+        "linked": [
+            "0:Default:2:Serving2"
+        ],
+        "pose": [
+            9.927238776689357,
+            -0.9488186632341903,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::22:Route22",
+        "linked": [
+            "0::12:Route12"
+        ],
+        "pose": [
+            9.840646188721612,
+            0.470713068464926,
+            1.5707963267948966
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::23:Route23",
+        "linked": [
+            "0:Default:2:Serving2",
+            "0::9:Route9",
+            "0::36:Route36"
+        ],
+        "pose": [
+            9.13248543093207,
+            -1.7211534289548918,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::24:Route24",
+        "linked": [
+            "0:Default:4:Serving4",
+            "0::20:Route20",
+            "0::14:Route14"
+        ],
+        "pose": [
+            7.506022615690989,
+            1.8291427250753476,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::26:Route26",
+        "linked": [
+            "0:Default:0:Serving0",
+            "0::0:Cleaning0",
+            "0::35:Route35"
+        ],
+        "pose": [
+            3.767896239771618,
+            -1.245396661154567,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::27:Route27",
+        "linked": [
+        ],
+        "pose": [
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::29:Route29",
+        "linked": [
+            "0::5:Route5",
+            "0::2:Resting2",
+            "0::31:Route31"
+        ],
+        "pose": [
+            6.196857461794943,
+            -1.3448535477386026,
+            0
+        ]
+    },
+    {
+        "attrib": "Resting",
+        "id": "0::2:Resting2",
+        "linked": [
+            "0::5:Route5",
+            "0::29:Route29",
+            "0::31:Route31",
+            "0::33:Route33"
+        ],
+        "pose": [
+            6.1678962397716175,
+            0.25514645226139754,
+            1.6078164426688315
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::2:Route2",
+        "linked": [
+            "0::5:Route5",
+            "0::0:Route0",
+            "0:Default:4:Serving4",
+            "0:Default:3:Serving3",
+            "0::13:Route13",
+            "0::12:Route12",
+            "0::17:Route17"
+        ],
+        "pose": [
+            8.289571142516555,
+            0.4837057296217496,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::30:Route30",
+        "linked": [
+            "0::1:Resting1",
+            "0::8:Route8",
+            "0::31:Route31",
+            "0::32:Route32",
+            "0:Default:0:Serving0"
+        ],
+        "pose": [
+            5.432522363940678,
+            -0.5448535477386025,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::31:Route31",
+        "linked": [
+            "0::2:Resting2",
+            "0::29:Route29",
+            "0::5:Route5",
+            "0::17:Route17",
+            "0::30:Route30",
+            "0::8:Route8"
+        ],
+        "pose": [
+            6.18504860472629,
+            -0.5448535477386025,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::32:Route32",
+        "linked": [
+            "0::0:Resting0",
+            "0:Default:0:Serving0",
+            "0::30:Route30",
+            "0::0:Cleaning0"
+        ],
+        "pose": [
+            4.567896239771618,
+            -0.5448535477386025,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::33:Route33",
+        "linked": [
+            "0::5:Route5",
+            "0::2:Resting2",
+            "0::17:Route17"
+        ],
+        "pose": [
+            6.746254614803693,
+            -0.013726870219586351,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::34:Route34",
+        "linked": [
+            "0::0:Cleaning0",
+            "0::35:Route35"
+        ],
+        "pose": [
+            2.967896239771618,
+            -0.5245706129516058,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::35:Route35",
+        "linked": [
+            "0::26:Route26",
+            "0::34:Route34"
+        ],
+        "pose": [
+            2.967896239771618,
+            -1.245396661154567,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::36:Route36",
+        "linked": [
+            "0::23:Route23"
+        ],
+        "pose": [
+            9.958700241102035,
+            -1.6871849532108913,
+            0
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::5:Route5",
+        "linked": [
+            "0::2:Resting2",
+            "0:Default:1:Serving1",
+            "0::0:Route0",
+            "0::2:Route2",
+            "0:Default:4:Serving4",
+            "0::9:Route9",
+            "0::29:Route29",
+            "0::31:Route31",
+            "0::33:Route33"
+        ],
+        "pose": [
+            7.1597434356719205,
+            -0.35253088105854147,
+            -1.5707963267948966
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::8:Route8",
+        "linked": [
+            "0::1:Resting1",
+            "0::30:Route30",
+            "0::31:Route31"
+        ],
+        "pose": [
+            5.432522363940678,
+            -1.3448535477386026,
+            -1.5707963267948966
+        ]
+    },
+    {
+        "attrib": "Route",
+        "id": "0::9:Route9",
+        "linked": [
+            "0::0:Route0",
+            "0:Default:2:Serving2",
+            "0::5:Route5",
+            "0:Default:1:Serving1",
+            "0::23:Route23"
+        ],
+        "pose": [
+            8.256818837823243,
+            -1.1581032854943558,
+            0
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:0:Serving0",
+        "linked": [
+            "0:Default:1:Serving1",
+            "0::0:Resting0",
+            "0::26:Route26",
+            "0::32:Route32",
+            "0::30:Route30"
+        ],
+        "pose": [
+            4.567896239771618,
+            -1.3448535477386026,
+            1.6162196062164758
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:1:Serving1",
+        "linked": [
+            "0:Default:0:Serving0",
+            "0::5:Route5",
+            "0::9:Route9",
+            "0::0:Route0"
+        ],
+        "pose": [
+            7.1597434356719205,
+            -1.3448535477386026,
+            1.4056476493802714
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:2:Serving2",
+        "linked": [
+            "0::0:Route0",
+            "0::9:Route9",
+            "0:Default:3:Serving3",
+            "0::21:Route21",
+            "0::23:Route23"
+        ],
+        "pose": [
+            9.127238776689357,
+            -0.9211534289548917,
+            3.141592653589793
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:3:Serving3",
+        "linked": [
+            "0:Default:2:Serving2",
+            "0:Default:4:Serving4",
+            "0::2:Route2",
+            "0::13:Route13",
+            "0::14:Route14",
+            "0::20:Route20",
+            "0::19:Route19"
+        ],
+        "pose": [
+            8.990493319917555,
+            1.9978679235484935,
+            -1.5707963267948966
+        ]
+    },
+    {
+        "attrib": "Serving",
+        "id": "0:Default:4:Serving4",
+        "linked": [
+            "0::5:Route5",
+            "0::2:Route2",
+            "0:Default:3:Serving3",
+            "0::14:Route14",
+            "0::24:Route24"
+        ],
+        "pose": [
+            7.568982466603547,
+            1.0211579716975212,
+            -1.5707963267948966
+        ]
+    }
+]
