@@ -2,6 +2,7 @@
     {
         "attrib": "Charging",
         "id": "0::0:Charging0",
+        "info": "",
         "linked": [
             "0::23:Route23",
             "0::0:Cleaning0",
@@ -16,6 +17,7 @@
     {
         "attrib": "Cleaning",
         "id": "0::0:Cleaning0",
+        "info": "",
         "linked": [
             "0::22:Route22",
             "0::0:Charging0"
@@ -29,6 +31,7 @@
     {
         "attrib": "Resting",
         "id": "0::0:Resting0",
+        "info": "",
         "linked": [
             "0::1:Resting1",
             "0::0:Route0",
@@ -43,6 +46,7 @@
     {
         "attrib": "Route",
         "id": "0::0:Route0",
+        "info": "",
         "linked": [
             "0::33:Route33",
             "0::1:Route1",
@@ -57,6 +61,7 @@
     {
         "attrib": "Route",
         "id": "0::10:Route10",
+        "info": "",
         "linked": [
             "0::9:Route9",
             "0::11:Route11"
@@ -70,6 +75,7 @@
     {
         "attrib": "Route",
         "id": "0::11:Route11",
+        "info": "",
         "linked": [
             "0::10:Route10",
             "0::12:Route12"
@@ -83,6 +89,7 @@
     {
         "attrib": "Route",
         "id": "0::12:Route12",
+        "info": "",
         "linked": [
             "0::11:Route11",
             "0::13:Route13"
@@ -96,6 +103,7 @@
     {
         "attrib": "Route",
         "id": "0::13:Route13",
+        "info": "",
         "linked": [
             "0::12:Route12",
             "0::14:Route14"
@@ -109,6 +117,7 @@
     {
         "attrib": "Route",
         "id": "0::14:Route14",
+        "info": "",
         "linked": [
             "0::13:Route13",
             "0:Default:2:Serving2"
@@ -122,9 +131,9 @@
     {
         "attrib": "Route",
         "id": "0::15:Route15",
+        "info": "",
         "linked": [
             "0::2:Route2",
-            "0::17:Route17",
             "0::16:Route16"
         ],
         "pose": [
@@ -136,6 +145,7 @@
     {
         "attrib": "Route",
         "id": "0::16:Route16",
+        "info": "",
         "linked": [
             "0::1:Route1",
             "0::18:Route18",
@@ -149,25 +159,11 @@
     },
     {
         "attrib": "Route",
-        "id": "0::17:Route17",
-        "linked": [
-            "0::15:Route15",
-            "0::19:Route19",
-            "0::18:Route18"
-        ],
-        "pose": [
-            0.9502091800073021,
-            0.8374943345260909,
-            0
-        ]
-    },
-    {
-        "attrib": "Route",
         "id": "0::18:Route18",
+        "info": "",
         "linked": [
             "0::16:Route16",
-            "0::20:Route20",
-            "0::17:Route17"
+            "0::20:Route20"
         ],
         "pose": [
             0.21979870083716888,
@@ -176,23 +172,9 @@
         ]
     },
     {
-        "attrib": "Route",
-        "id": "0::19:Route19",
-        "linked": [
-            "0::17:Route17",
-            "0::21:Route21",
-            "0::22:Route22",
-            "0::20:Route20"
-        ],
-        "pose": [
-            0.9502091800073021,
-            0.15858562002114912,
-            0
-        ]
-    },
-    {
         "attrib": "Charging",
         "id": "0::1:Charging1",
+        "info": "",
         "linked": [
             "0::24:Route24",
             "0::0:Charging0",
@@ -207,6 +189,7 @@
     {
         "attrib": "Resting",
         "id": "0::1:Resting1",
+        "info": "",
         "linked": [
             "0::2:Resting2",
             "0::0:Resting0",
@@ -221,6 +204,7 @@
     {
         "attrib": "Route",
         "id": "0::1:Route1",
+        "info": "",
         "linked": [
             "0::0:Route0",
             "0::16:Route16",
@@ -236,10 +220,10 @@
     {
         "attrib": "Route",
         "id": "0::20:Route20",
+        "info": "",
         "linked": [
             "0::18:Route18",
-            "0::22:Route22",
-            "0::19:Route19"
+            "0::22:Route22"
         ],
         "pose": [
             0.2476228284808137,
@@ -250,8 +234,8 @@
     {
         "attrib": "Route",
         "id": "0::21:Route21",
+        "info": "",
         "linked": [
-            "0::19:Route19",
             "0::22:Route22"
         ],
         "pose": [
@@ -263,8 +247,8 @@
     {
         "attrib": "Route",
         "id": "0::22:Route22",
+        "info": "",
         "linked": [
-            "0::19:Route19",
             "0::21:Route21",
             "0::23:Route23",
             "0::20:Route20",
@@ -279,6 +263,7 @@
     {
         "attrib": "Route",
         "id": "0::23:Route23",
+        "info": "",
         "linked": [
             "0::22:Route22",
             "0::24:Route24",
@@ -293,6 +278,7 @@
     {
         "attrib": "Route",
         "id": "0::24:Route24",
+        "info": "",
         "linked": [
             "0::23:Route23",
             "0:Default:5:Serving5",
@@ -307,6 +293,7 @@
     {
         "attrib": "Route",
         "id": "0::25:Route25",
+        "info": "",
         "linked": [
             "0:Default:5:Serving5",
             "0::26:Route26"
@@ -320,6 +307,7 @@
     {
         "attrib": "Route",
         "id": "0::26:Route26",
+        "info": "",
         "linked": [
             "0::25:Route25",
             "0::27:Route27"
@@ -333,6 +321,7 @@
     {
         "attrib": "Route",
         "id": "0::27:Route27",
+        "info": "",
         "linked": [
             "0::26:Route26",
             "0::28:Route28"
@@ -346,6 +335,7 @@
     {
         "attrib": "Route",
         "id": "0::28:Route28",
+        "info": "",
         "linked": [
             "0::27:Route27",
             "0:Default:4:Serving4"
@@ -359,6 +349,7 @@
     {
         "attrib": "Route",
         "id": "0::29:Route29",
+        "info": "",
         "linked": [
             "0::30:Route30",
             "0:Default:3:Serving3"
@@ -372,6 +363,7 @@
     {
         "attrib": "Charging",
         "id": "0::2:Charging2",
+        "info": "",
         "linked": [
             "0:Default:5:Serving5",
             "0::1:Charging1"
@@ -385,6 +377,7 @@
     {
         "attrib": "Resting",
         "id": "0::2:Resting2",
+        "info": "",
         "linked": [
             "0::2:Route2",
             "0::1:Resting1",
@@ -399,6 +392,7 @@
     {
         "attrib": "Route",
         "id": "0::2:Route2",
+        "info": "",
         "linked": [
             "0::15:Route15",
             "0::1:Route1",
@@ -414,6 +408,7 @@
     {
         "attrib": "Route",
         "id": "0::30:Route30",
+        "info": "",
         "linked": [
             "0::31:Route31",
             "0::29:Route29"
@@ -427,6 +422,7 @@
     {
         "attrib": "Route",
         "id": "0::31:Route31",
+        "info": "",
         "linked": [
             "0::32:Route32",
             "0::30:Route30"
@@ -440,6 +436,7 @@
     {
         "attrib": "Route",
         "id": "0::32:Route32",
+        "info": "",
         "linked": [
             "0:Default:4:Serving4",
             "0::31:Route31"
@@ -453,6 +450,7 @@
     {
         "attrib": "Route",
         "id": "0::33:Route33",
+        "info": "",
         "linked": [
             "0:Default:3:Serving3",
             "0::0:Route0",
@@ -467,6 +465,7 @@
     {
         "attrib": "Route",
         "id": "0::34:Route34",
+        "info": "",
         "linked": [
             "0::2:Resting2",
             "0::2:Route2",
@@ -481,6 +480,7 @@
     {
         "attrib": "Route",
         "id": "0::3:Route3",
+        "info": "",
         "linked": [
             "0::4:Route4",
             "0::34:Route34"
@@ -494,6 +494,7 @@
     {
         "attrib": "Route",
         "id": "0::4:Route4",
+        "info": "",
         "linked": [
             "0:Default:0:Serving0",
             "0::3:Route3"
@@ -507,6 +508,7 @@
     {
         "attrib": "Route",
         "id": "0::5:Route5",
+        "info": "",
         "linked": [
             "0::6:Route6",
             "0:Default:0:Serving0"
@@ -520,6 +522,7 @@
     {
         "attrib": "Route",
         "id": "0::6:Route6",
+        "info": "",
         "linked": [
             "0::7:Route7",
             "0::5:Route5"
@@ -533,6 +536,7 @@
     {
         "attrib": "Route",
         "id": "0::7:Route7",
+        "info": "",
         "linked": [
             "0::8:Route8",
             "0::6:Route6",
@@ -547,6 +551,7 @@
     {
         "attrib": "Route",
         "id": "0::8:Route8",
+        "info": "",
         "linked": [
             "0:Default:1:Serving1",
             "0::7:Route7"
@@ -560,6 +565,7 @@
     {
         "attrib": "Route",
         "id": "0::9:Route9",
+        "info": "",
         "linked": [
             "0::7:Route7",
             "0::10:Route10"
@@ -573,6 +579,7 @@
     {
         "attrib": "Serving",
         "id": "0:Default:0:Serving0",
+        "info": "",
         "linked": [
             "0::5:Route5",
             "0::4:Route4"
@@ -586,6 +593,7 @@
     {
         "attrib": "Serving",
         "id": "0:Default:1:Serving1",
+        "info": "",
         "linked": [
             "0::8:Route8"
         ],
@@ -598,6 +606,7 @@
     {
         "attrib": "Serving",
         "id": "0:Default:2:Serving2",
+        "info": "",
         "linked": [
             "0::14:Route14"
         ],
@@ -610,6 +619,7 @@
     {
         "attrib": "Serving",
         "id": "0:Default:3:Serving3",
+        "info": "",
         "linked": [
             "0::29:Route29",
             "0::33:Route33"
@@ -623,6 +633,7 @@
     {
         "attrib": "Serving",
         "id": "0:Default:4:Serving4",
+        "info": "",
         "linked": [
             "0::28:Route28",
             "0::32:Route32"
@@ -630,12 +641,13 @@
         "pose": [
             -3.707576916063336,
             0.9695351234653891,
-            -0.007352808666690515
+            -0.007352808666690518
         ]
     },
     {
         "attrib": "Serving",
         "id": "0:Default:5:Serving5",
+        "info": "",
         "linked": [
             "0::24:Route24",
             "0::25:Route25",
